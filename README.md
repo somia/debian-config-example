@@ -8,20 +8,20 @@ are added to Git (except `debian`) are built.  The package version is deduced
 from the current Git commit (the `1` in `1.0` comes from the latest Git tag
 name).
 
-### `base` features
+### Base package features
 
 - Requires distcc to be installed.
 - Replaces `/etc/default/distcc` with a custom version and restarts distccd.
 - Un-diverts `/etc/crontab` (as if it had been diverted by an older version of
   this package, but now we want the original).
 
-### `igbinary` features
+### Igbinary package features
 
 - Requires PHP and our base configuration to be installed.
 - Provides a custom-built version of the igbinary PHP extension.
 - Writes a notice to syslog that php5-fpm might need restarting.
 
-### Additional features
+### Unused features
 
 - `/usr/share/keyrings/*.gpg` files will be automatically registered with APT.
 
