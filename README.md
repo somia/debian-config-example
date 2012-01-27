@@ -3,10 +3,11 @@ custom Debian/Ubuntu configurations.
 
 The `base` and `igbinary` directories are built into
 `packages/example-config-base_1.0-gXXXXXXX_all.deb` and
-`packages/example-config-igbinary_1.0-gXXXXXXX_all.deb`.  All directories which
+`packages/example-config-igbinary_1.3-gYYYYYYY_all.deb`.  All directories which
 are added to Git (except `debian`) are built.  The package version is deduced
-from the current Git commit (the `1` in `1.0` comes from the latest Git tag
-name).
+from the current Git commit; the `1` in `1.3` comes from the latest Git tag
+name and the `3` comes from the number of successive commits until the latest
+commit which has changed the package directory.
 
 ### Base package features
 
