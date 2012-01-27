@@ -1,0 +1,2 @@
+etc/default/distcc		add
+etc/crontab			remove
