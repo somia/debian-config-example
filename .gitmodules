@@ -1,9 +1,6 @@
 [submodule "debian"]
 	path = debian
 	url = git://github.com/somia/debian-config-packaging.git
-[submodule "igbinar/src"]
-	path = igbinar/src
-	url = git://github.com/igbinary/igbinary.git
 [submodule "igbinary/src"]
 	path = igbinary/src
 	url = git://github.com/igbinary/igbinary.git
